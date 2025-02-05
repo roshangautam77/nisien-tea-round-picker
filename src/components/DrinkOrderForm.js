@@ -53,7 +53,7 @@ const DrinkOrderForm = ({ users, fetchOrders }) => {
         {apiError && <div className="alert alert-danger">{apiError}</div>}
         <form onSubmit={handleSubmit}>
           <div className="mb-3">
-            <label className="form-label">Select User <span class="text-danger">*</span></label>
+            <label className="form-label">Select User <span className="text-danger">*</span></label>
             <select
               className="form-select"
               value={selectedUser}
@@ -69,11 +69,9 @@ const DrinkOrderForm = ({ users, fetchOrders }) => {
             {userError && <div className="text-danger mt-1">{userError}</div>}
           </div>
           <div className="mb-3">
-            <label for="drinkname" className="form-label">Drink Name <span class="text-danger">*</span></label>
+            <label className="form-label">Drink Name <span className="text-danger">*</span></label>
             <input
               type="text"
-              id="drinkname"
-              name="drinkname"
               className="form-control"
               value={drinkType}
               onChange={(e) => setDrinkType(e.target.value)}

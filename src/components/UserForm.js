@@ -41,22 +41,18 @@ const UserForm = ({ fetchUsers }) => {
         )}
         <form onSubmit={handleSubmit}>
           <div className="mb-3">
-            <label for="fname" className="form-label">First Name <span class="text-danger">*</span></label>
+            <label className="form-label">First Name <span className="text-danger">*</span></label>
             <input
               type="text"
-              id="fname"
-              name="fname"
               className="form-control"
               value={firstName}
               onChange={(e) => setFirstName(e.target.value)}
             />
           </div>
           <div className="mb-3">
-            <label for="lname" className="form-label">Last Name <span class="text-danger">*</span></label>
+            <label className="form-label">Last Name <span className="text-danger">*</span></label>
             <input
               type="text"
-              id="lname"
-              name="lname"
               className="form-control"
               value={lastName}
               onChange={(e) => setLastName(e.target.value)}
