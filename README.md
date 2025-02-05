@@ -41,7 +41,7 @@ The Tea Round Picker app is designed to fairly assign a tea maker for a team by 
 
   * Order List View: View assigned drinks per user.
   
-  * Optimized Performance: React.memo.
+  * Optimized Performance: React.memo, useCallback.
 
 </div>
 
