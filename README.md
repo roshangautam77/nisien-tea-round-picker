@@ -20,7 +20,6 @@ Contents:
 - [Future Improvements](#future-improvements)
 - [Local Setup](#local-setup)
 
-[Translations into more languages](locales/)
 
 <div class="include" data-path="locales/en/overview">
 
